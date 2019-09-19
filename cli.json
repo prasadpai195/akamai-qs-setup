@@ -1,0 +1,13 @@
+{
+    "requirements": {
+      "python": "3.7.2"
+    },
+    "commands": [
+      {
+        "name": "akamai-quick-setup",
+        "aliases": ["qs"],
+        "version": "0.1.0",
+        "description": "Diagnostic tool CLI"
+      }
+    ]
+  }
