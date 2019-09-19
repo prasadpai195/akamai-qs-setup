@@ -66,5 +66,5 @@ def activateConfigStaging(contractId,groupId,propertyId):
 def activateConfigProduction(contractId,groupId,propertyId):
   data = {"propertyVersion": 1 ,"network": "PRODUCTION","note": "Initial Activation","notifyEmails": ["prvenkat@akamai.com"],"acknowledgeAllWarnings":1}
   headers = {"content-type": "application/json"}
-  result=s.post(urljoin(baseurl,'/papi/v1/properties/'+propertyid+'/activations/?contractId='+contractId+'&groupId='+groupId+'&accountSwitchKey=1-6JHGX'), data=json.dumps(data), headers=headers)
+  result=s.post(urljoin(baseurl,'/papi/v1/properties/'+propertyId+'/activations/?contractId='+contractId+'&groupId='+groupId+'&accountSwitchKey=1-6JHGX'), data=json.dumps(data), headers=headers)
   return result
