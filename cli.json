@@ -4,7 +4,7 @@
     },
     "commands": [
       {
-        "name": "akamai-quick-setup",
+        "name": "quick-setup",
         "aliases": ["qs"],
         "version": "0.1.0",
         "description": "Diagnostic tool CLI"
